@@ -1,0 +1,357 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "order": 1,
+      "title": "Sobre Nós",
+      "subtitle": "Instrutores e instalações qualificadas",
+      "text": "Contamos com instalações bem equipadas e modernas, incluindo uma variedade de equipamentos de fitness de última geração. Temos também uma equipe de instrutores experientes e certificados, capazes de oferecer orientação profissional e motivadora aos membros."
+    },
+    {
+      "id": 2,
+      "order": 2,
+      "title": "Blog",
+      "subtitle": "Informações personalizadas",
+      "text": [
+        "Conheça os exercícios e rotinas mais eficazes para alcançar seus objetivos.",
+        "Transforme sua vida através de escolhas saudáveis e nutrição balanceada.",
+        "Fique por dentro das nossas últimas novidades, eventos e atualizações exclusivas."
+      ]
+    },
+    {
+      "id": 3,
+      "order": 3,
+      "title": "Atividades",
+      "subtitle": "Uma variedade de atividades e exercícios",
+      "text": "Oferecemos uma ampla gama de modalidades de exercícios e atividades para atender às preferências e necessidades dos nossos clientes. Além da possibilidade de serviços de treinamento pessoal individualizado e programas de exercícios adaptados às suas metas e habilidades específicas."
+    }
+  ],
+  "about": [
+    {
+      "title": "O início de tudo",
+      "text": "Fundada por entusiastas do fitness, a Max Health é uma academia dedicada ao bem-estar holístico. Oferecemos uma variedade de atividades e recursos para ajudar nossos membros a alcançarem seus objetivos de saúde e felicidade. Junte-se a nós e descubra o seu potencial máximo!",
+      "stats": [
+        {
+          "number": "25",
+          "information": "Professores e instrutores competentes"
+        },
+        {
+          "number": "60",
+          "information": "Atividades marcadas na semana"
+        },
+        {
+          "number": "450",
+          "information": "Clientes ativos e satisfeitos"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "name": "Musculação",
+      "prices": {
+        "weekly": 49.9,
+        "monthly": 189.9
+      },
+      "schedules": [
+        {
+          "id": 1,
+          "time": "09:00 - 10:00",
+          "week_day": "Terça-feira",
+          "instructor": "Sofia Ramirez"
+        },
+        {
+          "id": 2,
+          "time": "10:00 - 11:00",
+          "week_day": "Terça-feira",
+          "instructor": "Sofia Ramirez"
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "week_day": "Quinta-feira",
+          "instructor": "Sofia Ramirez"
+        },
+        {
+          "id": 4,
+          "time": "15:00 - 16:00",
+          "week_day": "Sexta-feira",
+          "instructor": "Sofia Ramirez"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Boxing",
+      "prices": {
+        "weekly": 59.9,
+        "monthly": 229.9
+      },
+      "schedules": [
+        {
+          "id": 1,
+          "time": "18:00 - 19:00",
+          "week_day": "Segunda-feira",
+          "instructor": "Liam Johnson"
+        },
+        {
+          "id": 2,
+          "time": "18:00 - 19:00",
+          "week_day": "Terça-feira",
+          "instructor": "Liam Johnson"
+        },
+        {
+          "id": 3,
+          "time": "18:00 - 19:00",
+          "week_day": "Quarta-feira",
+          "instructor": "Liam Johnson"
+        },
+        {
+          "id": 4,
+          "time": "18:00 - 19:00",
+          "week_day": "Quinta-feira",
+          "instructor": "Liam Johnson"
+        },
+        {
+          "id": 5,
+          "time": "18:00 - 19:00",
+          "week_day": "Sexta-feira",
+          "instructor": "Liam Johnson"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Aeróbico",
+      "prices": {
+        "weekly": 39.9,
+        "monthly": 149.9
+      },
+      "schedules": [
+        {
+          "id": 1,
+          "time": "09:00 - 10:00",
+          "week_day": "Segunda-feira",
+          "instructor": "Isabella Chen"
+        },
+        {
+          "id": 2,
+          "time": "08:00 - 09:00",
+          "week_day": "Terça-feira",
+          "instructor": "Isabella Chen"
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "week_day": "Quarta-feira",
+          "instructor": "Isabella Chen"
+        },
+        {
+          "id": 4,
+          "time": "08:00 - 09:00",
+          "week_day": "Quinta-feira",
+          "instructor": "Isabella Chen"
+        },
+        {
+          "id": 5,
+          "time": "09:00 - 10:00",
+          "week_day": "Sexta-feira",
+          "instructor": "Isabella Chen"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Padel",
+      "prices": {
+        "weekly": 49.9,
+        "monthly": 189.9
+      },
+      "schedules": [
+        {
+          "id": 1,
+          "time": "15:00 - 16:00",
+          "week_day": "Quarta-feira",
+          "instructor": "Lucas Nguyen"
+        },
+        {
+          "id": 2,
+          "time": "14:00 - 15:00",
+          "week_day": "Sábado",
+          "instructor": "Lucas Nguyen"
+        },
+        {
+          "id": 3,
+          "time": "15:00 - 16:00",
+          "week_day": "Sábado",
+          "instructor": "Lucas Nguyen"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pilates",
+      "prices": {
+        "weekly": 39.9,
+        "monthly": 149.9
+      },
+      "schedules": [
+        {
+          "id": 1,
+          "time": "17:00 - 18:00",
+          "week_day": "Segunda-feira",
+          "instructor": "Ava Thompson"
+        },
+        {
+          "id": 2,
+          "time": "17:00 - 18:00",
+          "week_day": "Quinta-feira",
+          "instructor": "Ava Thompson"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Judô",
+      "prices": {
+        "weekly": 49.9,
+        "monthly": 189.9
+      },
+      "schedules": [
+        {
+          "id": 1,
+          "time": "10:00 - 11:00",
+          "week_day": "Terça-feira",
+          "instructor": "Noah Patel"
+        },
+        {
+          "id": 2,
+          "time": "19:00 - 20:00",
+          "week_day": "Terça-feira",
+          "instructor": "Noah Patel"
+        },
+        {
+          "id": 3,
+          "time": "10:00 - 11:00",
+          "week_day": "Quinta-feira",
+          "instructor": "Noah Patel"
+        },
+        {
+          "id": 4,
+          "time": "19:00 - 20:00",
+          "week_day": "Quinta-feira",
+          "instructor": "Noah Patel"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Natação",
+      "prices": {
+        "weekly": 54.9,
+        "monthly": 209.9
+      },
+      "schedules": [
+        {
+          "id": 1,
+          "time": "16:00 - 17:00",
+          "week_day": "Segunda-feira",
+          "instructor": "Noah Patel"
+        },
+        {
+          "id": 2,
+          "time": "09:00 - 10:00",
+          "week_day": "Quarta-feira",
+          "instructor": "Noah Patel"
+        },
+        {
+          "id": 3,
+          "time": "15:00 - 16:00",
+          "week_day": "Sábado",
+          "instructor": "Noah Patel"
+        }
+      ]
+    }
+  ],
+  "blog": [
+    {
+      "curiosities": [
+        {
+          "id": 1,
+          "title": "Natação",
+          "text": "Você sabia que a natação é um dos poucos esportes que engaja todos os principais grupos musculares do corpo? Além disso, é uma das atividades físicas mais completas, oferecendo benefícios cardiovasculares, musculares e de resistência."
+        },
+        {
+          "id": 2,
+          "title": "Boxing",
+          "text": "O treino de boxe não só fortalece os músculos, mas também melhora a coordenação, agilidade e reflexos. Isso ocorre devido à natureza técnica do esporte, que requer movimentos rápidos e precisos, tanto defensivos quanto ofensivos."
+        },
+        {
+          "id": 3,
+          "title": "Musculação",
+          "text": "Ao contrário de muitas atividades cardiovasculares que queimam calorias apenas durante o exercício, a musculação pode levar a um fenômeno conhecido como 'efeito pós-queima'. Isso significa que o corpo continua queimando calorias em um ritmo elevado após o treino devido ao esforço necessário para reparar e reconstruir os músculos danificados durante o exercício."
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "date": "15 de abril de 2024",
+          "name": "Corrida beneficente pela saúde mental"
+        },
+        {
+          "id": 2,
+          "date": "20 a 22 de maio de 2024",
+          "name": "Torneio de padel solidário"
+        },
+        {
+          "id": 3,
+          "date": "30 de maio de 2024",
+          "name": "Festival fitness ao ar livre"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1,
+          "title": "Tênis adequados",
+          "text": "Escolha o par de tênis certo é essencial para prevenir lesões e melhorar o desempenho durante os treinos."
+        },
+        {
+          "id": 2,
+          "title": "Roupas confortáveis",
+          "text": "Opte por roupas esportivas feitas de materiais respiráveis e que absorvam a umidade, como poliéster ou tecidos mistos de algodão."
+        },
+        {
+          "id": 3,
+          "title": "Garrafa de água reutilizável",
+          "text": "Mantenha-se hidratado durante os treinos trazendo uma garrafa de água reutilizável."
+        },
+        {
+          "id": 4,
+          "title": "Toalha de treino",
+          "text": "Sempre leve uma toalha de treino consigo para enxugar o suor e manter-se limpo durante os exercícios."
+        }
+      ],
+      "news": [
+        {
+          "id": 1,
+          "title": "Aeróbico Intenso",
+          "phrase": "Novas rotinas para queimar calorias",
+          "text": "Estamos animados em anunciar a adição de novas rotinas de aeróbico à nossa programação. Serão circuitos de alta intensidade, há algo para todos os gostos e níveis de condicionamento físico. Prepare-se para suar, queimar calorias e se divertir enquanto faz isso!"
+        },
+        {
+          "id": 2,
+          "title": "Judô Kids",
+          "phrase": "Incentivando a confiança e disciplina das crianças",
+          "text": "Nosso programa de judô para crianças está expandindo! Agora, oferecemos aulas adicionais para os pequenos lutadores aprenderem não apenas habilidades de autodefesa, mas também valores essenciais como disciplina, respeito e autoconfiança."
+        },
+        {
+          "id": 3,
+          "title": "Benefícios do Pilates",
+          "phrase": "Fortalecimento corporal e mental",
+          "text": "Descubra os incríveis benefícios do pilates em nossa nova série de workshops. Desde o fortalecimento do núcleo até o alívio do estresse, o pilates oferece uma variedade de vantagens para a saúde física e mental."
+        }
+      ]
+    }
+  ]
+}
