@@ -1,26 +1,43 @@
-<script setup lang="ts">
-import { RouterLink } from 'vue-router'
-
-</script>
-
 <template>
   <div class="flex items-center justify-center bg-black p-4 w-full">
-      <nav class="flex items-center justify-between max-w-screen-lg w-full">
-        <div class="flex items-center gap-4 text-custom-yellow text-2xl font-bold">
-          <router-link to="/"><img src="../assets/max_health-logo.svg" alt=""></router-link>
-          <span>MaxHealth</span>
+    <nav class="flex items-center justify-between max-w-screen-lg w-full">
+      <div class="flex items-center gap-4 text-custom-yellow text-2xl font-bold">
+        <router-link to="/"><img src="../assets/max_health-logo.svg" alt=""></router-link>
+        <router-link to="/"><span>MaxHealth</span></router-link>
+      </div>
+      <div class=" hidden lg:flex items-center gap-8 text-white">
+        <router-link to="/">Início</router-link>
+        <router-link to="/sobre">Sobre Nós</router-link>
+        <router-link to="/blog">Blog</router-link>
+        <router-link to="/atividades">Atividades</router-link>
+        <router-link to="/contato">Contato</router-link>
+      </div>
+    </nav>
+    <div class="relative lg:hidden">
+      <button class="mobileButton flex" @click="toggleMobileMenu"></button>
+      <div class="absolute top-0 right-0 mt-10 bg-black p-4 w-40" :class="{ 'hidden': !isMobileMenuOpen }">
+        <div class="flex flex-col items-center gap-8 text-white">
+          <router-link to="/" @click="toggleMobileMenu">Início</router-link>
+          <router-link to="/sobre" @click="toggleMobileMenu">Sobre Nós</router-link>
+          <router-link to="/blog" @click="toggleMobileMenu">Blog</router-link>
+          <router-link to="/atividades" @click="toggleMobileMenu">Atividades</router-link>
+          <router-link to="/contato" @click="toggleMobileMenu">Contato</router-link>
         </div>
-        <div class="flex items-center gap-8">
-          <router-link class="text-white hidden lg:flex" to="/">Início</router-link>
-          <router-link class="text-white hidden lg:flex" to="/sobre">Sobre Nós</router-link>
-          <router-link class="text-white hidden lg:flex" to="/blog">Blog</router-link>
-          <router-link class="text-white hidden lg:flex" to="/atividades">Atividades</router-link>
-          <router-link class="text-white hidden lg:flex" to="/contato">Contato</router-link>
-        </div>
-      </nav>
-      <button class="mobileButton flex lg:hidden"></button>
+      </div>
+    </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+import { RouterLink } from 'vue-router'
+
+const isMobileMenuOpen = ref(false)
+
+const toggleMobileMenu = () => {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value
+}
+</script>
 
 <style scoped lang="scss">
 .mobileButton {
