@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center bg-black p-4 w-full">
+  <div class="flex items-center justify-center bg-custom-black p-4 w-full">
     <nav class="flex items-center justify-between max-w-screen-lg w-full">
       <div class="flex items-center gap-4 text-custom-yellow text-2xl font-bold">
         <router-link to="/"><img src="../assets/max_health-logo.svg" alt=""></router-link>

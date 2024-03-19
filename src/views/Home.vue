@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import PrincipalHeader from '../components/PrincipalHeader.vue';
 </script>
 
 <template>
   <div>
-    <h1>Home</h1>
+    <PrincipalHeader/>
   </div>
 </template>
 
