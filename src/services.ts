@@ -1,6 +1,5 @@
 import axios, { AxiosInstance } from "axios";
 
-// Defina a interface para os métodos disponíveis no seu serviço
 interface ApiService {
     get<T>(endpoint: string): Promise<T>;
     post<T>(endpoint: string, body: any): Promise<T>;
@@ -8,7 +7,6 @@ interface ApiService {
     put<T>(endpoint: string, body: any): Promise<T>;
 }
 
-// Implementação do serviço
 class ApiServiceImplementation implements ApiService {
     private axiosInstance: AxiosInstance;
 
@@ -39,5 +37,4 @@ class ApiServiceImplementation implements ApiService {
     }
 }
 
-// Exporte uma instância do serviço para uso
 export const api: ApiService = new ApiServiceImplementation();

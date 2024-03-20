@@ -4,9 +4,11 @@ import PrincipalHeader from '../components/PrincipalHeader.vue';
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col gap-12 lg:gap-24">
     <PrincipalHeader/>
-    <InitialAbout />
+    <main>
+      <InitialAbout />
+    </main>
   </div>
 </template>
 

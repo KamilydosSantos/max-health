@@ -5,7 +5,7 @@ import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-  <div>
+  <div class="font-poppins">
     <NavBar />
     <RouterView/>
   </div>
