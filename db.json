@@ -1,29 +1,19 @@
 {
-  "pages": [
+  "initial": [
     {
       "id": 1,
-      "order": 1,
-      "title": "Sobre Nós",
-      "subtitle": "Instrutores e instalações qualificadas",
-      "text": "Contamos com instalações bem equipadas e modernas, incluindo uma variedade de equipamentos de fitness de última geração. Temos também uma equipe de instrutores experientes e certificados, capazes de oferecer orientação profissional e motivadora aos membros."
+      "icon": "IconCuriosities",
+      "text": "Conheça os exercícios e rotinas mais eficazes para alcançar seus objetivos."
     },
     {
       "id": 2,
-      "order": 2,
-      "title": "Blog",
-      "subtitle": "Informações personalizadas",
-      "text": [
-        "Conheça os exercícios e rotinas mais eficazes para alcançar seus objetivos.",
-        "Transforme sua vida através de escolhas saudáveis e nutrição balanceada.",
-        "Fique por dentro das nossas últimas novidades, eventos e atualizações exclusivas."
-      ]
+      "icon": "IconRecommendations",
+      "text": "Transforme sua vida através de escolhas saudáveis e nutrição balanceada."
     },
     {
       "id": 3,
-      "order": 3,
-      "title": "Atividades",
-      "subtitle": "Uma variedade de atividades e exercícios",
-      "text": "Oferecemos uma ampla gama de modalidades de exercícios e atividades para atender às preferências e necessidades dos nossos clientes. Além da possibilidade de serviços de treinamento pessoal individualizado e programas de exercícios adaptados às suas metas e habilidades específicas."
+      "icon": "IconNews",
+      "text": "Fique por dentro das nossas últimas novidades, eventos e atualizações exclusivas."
     }
   ],
   "about": [
