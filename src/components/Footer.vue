@@ -1,6 +1,6 @@
 <template>
-  <footer class="flex items-center justify-center bg-custom-yellow p-4 w-full">
-    <div class="flex flex-col lg:grid lg:grid-cols-[auto,1fr,auto] gap-8 lg:gap-0 justify-between max-w-screen-lg w-full">
+  <footer class="flex items-center justify-center bg-custom-yellow w-full">
+    <div class="flex flex-col lg:grid lg:grid-cols-[auto,1fr,auto] gap-8 lg:gap-0 justify-between max-w-screen-lg w-full mx-8 my-12 lg:mx-0">
       <div class="flex flex-col gap-4">
         <div class="flex items-center gap-4 text-custom-black">
           <router-link to="/">
