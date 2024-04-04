@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <h2 class="title text-3xl text-custom-black font-bold relative">{{ text }}</h2>
+  <h2 class="title text-2xl lg:text-3xl text-custom-black font-bold relative">{{ text }}</h2>
 </template>
 
 <style lang="scss">

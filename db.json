@@ -1,39 +1,19 @@
 {
-  "initial": [
+  "about": [
     {
       "id": 1,
-      "icon": "IconCuriosities",
-      "text": "Conheça os exercícios e rotinas mais eficazes para alcançar seus objetivos."
+      "number": "25",
+      "information": "Professores e instrutores competentes"
     },
     {
       "id": 2,
-      "icon": "IconRecommendations",
-      "text": "Transforme sua vida através de escolhas saudáveis e nutrição balanceada."
+      "number": "60",
+      "information": "Atividades marcadas na semana"
     },
     {
       "id": 3,
-      "icon": "IconNews",
-      "text": "Fique por dentro das nossas últimas novidades, eventos e atualizações exclusivas."
-    }
-  ],
-  "about": [
-    {
-      "title": "O início de tudo",
-      "text": "Fundada por entusiastas do fitness, a Max Health é uma academia dedicada ao bem-estar holístico. Oferecemos uma variedade de atividades e recursos para ajudar nossos membros a alcançarem seus objetivos de saúde e felicidade. Junte-se a nós e descubra o seu potencial máximo!",
-      "stats": [
-        {
-          "number": "25",
-          "information": "Professores e instrutores competentes"
-        },
-        {
-          "number": "60",
-          "information": "Atividades marcadas na semana"
-        },
-        {
-          "number": "450",
-          "information": "Clientes ativos e satisfeitos"
-        }
-      ]
+      "number": "450",
+      "information": "Clientes ativos e satisfeitos"
     }
   ],
   "activities": [
@@ -265,6 +245,25 @@
     }
   ],
   "blog": [
+    {
+      "initial": [
+        {
+          "id": 1,
+          "icon": "IconCuriosities",
+          "text": "Conheça os exercícios e rotinas mais eficazes para alcançar seus objetivos."
+        },
+        {
+          "id": 2,
+          "icon": "IconRecommendations",
+          "text": "Transforme sua vida através de escolhas saudáveis e nutrição balanceada."
+        },
+        {
+          "id": 3,
+          "icon": "IconNews",
+          "text": "Fique por dentro das nossas últimas novidades, eventos e atualizações exclusivas."
+        }
+      ]
+    },
     {
       "curiosities": [
         {
