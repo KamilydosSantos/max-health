@@ -251,103 +251,99 @@
       ]
     }
   ],
-  "blog": [
-    {
-      "initial": [
-        {
-          "id": 1,
-          "icon": "IconCuriosities",
-          "text": "Conheça os exercícios e rotinas mais eficazes para alcançar seus objetivos."
-        },
-        {
-          "id": 2,
-          "icon": "IconRecommendations",
-          "text": "Transforme sua vida através de escolhas saudáveis e nutrição balanceada."
-        },
-        {
-          "id": 3,
-          "icon": "IconNews",
-          "text": "Fique por dentro das nossas últimas novidades, eventos e atualizações exclusivas."
-        }
-      ]
-    },
-    {
-      "curiosities": [
-        {
-          "id": 1,
-          "title": "Natação",
-          "text": "Você sabia que a natação é um dos poucos esportes que engaja todos os principais grupos musculares do corpo? Além disso, é uma das atividades físicas mais completas, oferecendo benefícios cardiovasculares, musculares e de resistência."
-        },
-        {
-          "id": 2,
-          "title": "Boxing",
-          "text": "O treino de boxe não só fortalece os músculos, mas também melhora a coordenação, agilidade e reflexos. Isso ocorre devido à natureza técnica do esporte, que requer movimentos rápidos e precisos, tanto defensivos quanto ofensivos."
-        },
-        {
-          "id": 3,
-          "title": "Musculação",
-          "text": "Ao contrário de muitas atividades cardiovasculares que queimam calorias apenas durante o exercício, a musculação pode levar a um fenômeno conhecido como 'efeito pós-queima'. Isso significa que o corpo continua queimando calorias em um ritmo elevado após o treino devido ao esforço necessário para reparar e reconstruir os músculos danificados durante o exercício."
-        }
-      ],
-      "events": [
-        {
-          "id": 1,
-          "date": "15 de abril de 2024",
-          "name": "Corrida beneficente pela saúde mental"
-        },
-        {
-          "id": 2,
-          "date": "20 a 22 de maio de 2024",
-          "name": "Torneio de padel solidário"
-        },
-        {
-          "id": 3,
-          "date": "30 de maio de 2024",
-          "name": "Festival fitness ao ar livre"
-        }
-      ],
-      "recommendations": [
-        {
-          "id": 1,
-          "title": "Tênis adequados",
-          "text": "Escolha o par de tênis certo é essencial para prevenir lesões e melhorar o desempenho durante os treinos."
-        },
-        {
-          "id": 2,
-          "title": "Roupas confortáveis",
-          "text": "Opte por roupas esportivas feitas de materiais respiráveis e que absorvam a umidade, como poliéster ou tecidos mistos de algodão."
-        },
-        {
-          "id": 3,
-          "title": "Garrafa de água reutilizável",
-          "text": "Mantenha-se hidratado durante os treinos trazendo uma garrafa de água reutilizável."
-        },
-        {
-          "id": 4,
-          "title": "Toalha de treino",
-          "text": "Sempre leve uma toalha de treino consigo para enxugar o suor e manter-se limpo durante os exercícios."
-        }
-      ],
-      "news": [
-        {
-          "id": 1,
-          "title": "Aeróbico Intenso",
-          "phrase": "Novas rotinas para queimar calorias",
-          "text": "Estamos animados em anunciar a adição de novas rotinas de aeróbico à nossa programação. Serão circuitos de alta intensidade, há algo para todos os gostos e níveis de condicionamento físico. Prepare-se para suar, queimar calorias e se divertir enquanto faz isso!"
-        },
-        {
-          "id": 2,
-          "title": "Judô Kids",
-          "phrase": "Incentivando a confiança e disciplina das crianças",
-          "text": "Nosso programa de judô para crianças está expandindo! Agora, oferecemos aulas adicionais para os pequenos lutadores aprenderem não apenas habilidades de autodefesa, mas também valores essenciais como disciplina, respeito e autoconfiança."
-        },
-        {
-          "id": 3,
-          "title": "Benefícios do Pilates",
-          "phrase": "Fortalecimento corporal e mental",
-          "text": "Descubra os incríveis benefícios do pilates em nossa nova série de workshops. Desde o fortalecimento do núcleo até o alívio do estresse, o pilates oferece uma variedade de vantagens para a saúde física e mental."
-        }
-      ]
-    }
-  ]
+  "blog": {
+    "initial": [
+      {
+        "id": 1,
+        "icon": "IconCuriosities",
+        "text": "Conheça os exercícios e rotinas mais eficazes para alcançar seus objetivos."
+      },
+      {
+        "id": 2,
+        "icon": "IconRecommendations",
+        "text": "Transforme sua vida através de escolhas saudáveis e nutrição balanceada."
+      },
+      {
+        "id": 3,
+        "icon": "IconNews",
+        "text": "Fique por dentro das nossas últimas novidades, eventos e atualizações exclusivas."
+      }
+    ],
+    "curiosities": [
+      {
+        "id": 1,
+        "title": "Natação",
+        "text": "Você sabia que a natação é um dos poucos esportes que engaja todos os principais grupos musculares do corpo? Além disso, é uma das atividades físicas mais completas, oferecendo benefícios cardiovasculares, musculares e de resistência."
+      },
+      {
+        "id": 2,
+        "title": "Boxing",
+        "text": "O treino de boxe não só fortalece os músculos, mas também melhora a coordenação, agilidade e reflexos. Isso ocorre devido à natureza técnica do esporte, que requer movimentos rápidos e precisos, tanto defensivos quanto ofensivos."
+      },
+      {
+        "id": 3,
+        "title": "Musculação",
+        "text": "Ao contrário de muitas atividades cardiovasculares que queimam calorias apenas durante o exercício, a musculação pode levar a um fenômeno conhecido como 'efeito pós-queima'. Isso significa que o corpo continua queimando calorias em um ritmo elevado após o treino devido ao esforço necessário para reparar e reconstruir os músculos danificados durante o exercício."
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "date": "15 de abril de 2024",
+        "name": "Corrida beneficente pela saúde mental"
+      },
+      {
+        "id": 2,
+        "date": "20 a 22 de maio de 2024",
+        "name": "Torneio de padel solidário"
+      },
+      {
+        "id": 3,
+        "date": "30 de maio de 2024",
+        "name": "Festival fitness ao ar livre"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": 1,
+        "title": "Tênis adequados",
+        "text": "Escolha o par de tênis certo é essencial para prevenir lesões e melhorar o desempenho durante os treinos."
+      },
+      {
+        "id": 2,
+        "title": "Roupas confortáveis",
+        "text": "Opte por roupas esportivas feitas de materiais respiráveis e que absorvam a umidade, como poliéster ou tecidos mistos de algodão."
+      },
+      {
+        "id": 3,
+        "title": "Garrafa de água reutilizável",
+        "text": "Mantenha-se hidratado durante os treinos trazendo uma garrafa de água reutilizável."
+      },
+      {
+        "id": 4,
+        "title": "Toalha de treino",
+        "text": "Sempre leve uma toalha de treino consigo para enxugar o suor e manter-se limpo durante os exercícios."
+      }
+    ],
+    "news": [
+      {
+        "id": 1,
+        "title": "Aeróbico Intenso",
+        "phrase": "Novas rotinas para queimar calorias",
+        "text": "Estamos animados em anunciar a adição de novas rotinas de aeróbico à nossa programação. Serão circuitos de alta intensidade, há algo para todos os gostos e níveis de condicionamento físico. Prepare-se para suar, queimar calorias e se divertir enquanto faz isso!"
+      },
+      {
+        "id": 2,
+        "title": "Judô Kids",
+        "phrase": "Incentivando a confiança e disciplina das crianças",
+        "text": "Nosso programa de judô para crianças está expandindo! Agora, oferecemos aulas adicionais para os pequenos lutadores aprenderem não apenas habilidades de autodefesa, mas também valores essenciais como disciplina, respeito e autoconfiança."
+      },
+      {
+        "id": 3,
+        "title": "Benefícios do Pilates",
+        "phrase": "Fortalecimento corporal e mental",
+        "text": "Descubra os incríveis benefícios do pilates em nossa nova série de workshops. Desde o fortalecimento do núcleo até o alívio do estresse, o pilates oferece uma variedade de vantagens para a saúde física e mental."
+      }
+    ]
+  }
 }
