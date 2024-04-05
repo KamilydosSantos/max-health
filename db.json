@@ -19,7 +19,8 @@
   "activities": [
     {
       "id": 1,
-      "name": "Musculação",
+      "name": "musculacao",
+      "img": "/assets/activities/musculacao.jpg",
       "prices": {
         "weekly": 49.9,
         "monthly": 189.9
@@ -53,7 +54,8 @@
     },
     {
       "id": 2,
-      "name": "Boxing",
+      "name": "boxing",
+      "img": "/assets/activities/boxing.jpg",
       "prices": {
         "weekly": 59.9,
         "monthly": 229.9
@@ -93,7 +95,8 @@
     },
     {
       "id": 3,
-      "name": "Aeróbico",
+      "name": "aerobico",
+      "img": "/assets/activities/aerobico.jpg",
       "prices": {
         "weekly": 39.9,
         "monthly": 149.9
@@ -133,7 +136,8 @@
     },
     {
       "id": 4,
-      "name": "Padel",
+      "name": "padel",
+      "img": "/assets/activities/padel.jpg",
       "prices": {
         "weekly": 49.9,
         "monthly": 189.9
@@ -161,7 +165,8 @@
     },
     {
       "id": 5,
-      "name": "Pilates",
+      "name": "pilates",
+      "img": "/assets/activities/pilates.jpg",
       "prices": {
         "weekly": 39.9,
         "monthly": 149.9
@@ -183,7 +188,8 @@
     },
     {
       "id": 6,
-      "name": "Judô",
+      "name": "judo",
+      "img": "/assets/activities/judo.jpg",
       "prices": {
         "weekly": 49.9,
         "monthly": 189.9
@@ -217,7 +223,8 @@
     },
     {
       "id": 7,
-      "name": "Natação",
+      "name": "natacao",
+      "img": "/assets/activities/natacao.jpg",
       "prices": {
         "weekly": 54.9,
         "monthly": 209.9
