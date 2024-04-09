@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex flex-col gap-12 lg:gap-24">
     <CommonHeader title="Atividades" subtitle="Uma variedade de atividades e exercícios" />
     <ActivityCard />
   </div>

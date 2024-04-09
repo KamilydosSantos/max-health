@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col lg:flex-row lg:mx-auto max-w-screen-lg w-full gap-8 mb-8">
+  <div class="flex flex-col lg:flex-row lg:mx-auto max-w-screen-lg w-full gap-8">
     <div class="flex flex-col items-center justify-center self-center lg:m-auto text-center p-12 max-w-72 h-72 bg-custom-black text-white rounded-md mx-8" v-for="stat in stats" key="stat.id">
       <span class="font-bold text-4xl w-3/4">+{{ stat.number }}</span>
       <p class="text-md">{{ stat.information }}</p>

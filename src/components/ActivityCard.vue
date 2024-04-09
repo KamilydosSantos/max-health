@@ -1,9 +1,8 @@
 <template>
-  <div>
-    <div v-for="activity in activities" :key="activity.id">
-      <img :src="`../assets/activities/atividade-${activity.name}.jpg`" alt="">
-      <p>{{ activity.name }}</p>
-      <NavigateButton text="Inscreva-se" route="/sobre" />
+  <div class="px-8 lg:p-0 md:mx-auto max-w-screen-lg w-full flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="activity-card flex flex-col gap-4" v-for="activity in activities" :key="activity.id" :style="{ backgroundImage: `url('../../src/assets/activities/${activity.img}')` }">
+      <p class="text-white font-bold text-lg">{{ activity.name }}</p>
+      <NavigateButton class="w-full" text="Inscreva-se" route="/sobre" />
     </div>
   </div>
 </template>
@@ -16,6 +15,7 @@ import NavigateButton from './NavigateButton.vue';
 interface Activities {
   id: number;
   name: string;
+  img: string;
   prices: Price;
   schedules: Schedule[];
 }
@@ -52,6 +52,17 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
+<style scoped lang="scss">
+.activity-card {
+  width: 100%;
+  max-width: 350px; 
+  height: 500px; 
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+}
 </style>
