@@ -330,18 +330,21 @@
         "id": 1,
         "title": "Aeróbico Intenso",
         "phrase": "Novas rotinas para queimar calorias",
+        "img": "atividade-aerobico.jpg",
         "text": "Estamos animados em anunciar a adição de novas rotinas de aeróbico à nossa programação. Serão circuitos de alta intensidade, há algo para todos os gostos e níveis de condicionamento físico. Prepare-se para suar, queimar calorias e se divertir enquanto faz isso!"
       },
       {
         "id": 2,
         "title": "Judô Kids",
         "phrase": "Incentivando a confiança e disciplina das crianças",
+        "img": "atividade-judo.jpg",
         "text": "Nosso programa de judô para crianças está expandindo! Agora, oferecemos aulas adicionais para os pequenos lutadores aprenderem não apenas habilidades de autodefesa, mas também valores essenciais como disciplina, respeito e autoconfiança."
       },
       {
         "id": 3,
         "title": "Benefícios do Pilates",
         "phrase": "Fortalecimento corporal e mental",
+        "img": "atividade-pilates.jpg",
         "text": "Descubra os incríveis benefícios do pilates em nossa nova série de workshops. Desde o fortalecimento do núcleo até o alívio do estresse, o pilates oferece uma variedade de vantagens para a saúde física e mental."
       }
     ]
