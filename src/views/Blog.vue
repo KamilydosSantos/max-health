@@ -4,7 +4,10 @@
     <div class="mx-8 lg:mx-auto max-w-screen-lg">
       <div class="flex flex-col lg:grid lg:grid-cols-2 gap-8">
         <Curiosities :curiosities="curiosities" />
-        <Events :events="events" />
+        <div class="flex flex-col gap-8">
+          <Events :events="events" />
+          <Recommendations :recommendations="recommendations" />
+        </div>
       </div>
     </div>
   </div>
@@ -12,7 +15,8 @@
 
 <script lang="ts">
 import Curiosities from '../components/Curiosities.vue';
-import Events from '../components//Events.vue';
+import Events from '../components/Events.vue';
+import Recommendations from '../components/Recommendations.vue';
 import { ref, onMounted } from 'vue';
 import { api } from '../services';
 import CommonHeader from '../components/CommonHeader.vue';
@@ -60,6 +64,7 @@ export default {
   components: {
     Curiosities,
     Events,
+    Recommendations,
     CommonHeader
 },
   setup() {
