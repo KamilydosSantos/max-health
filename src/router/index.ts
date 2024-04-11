@@ -9,67 +9,29 @@ import Contact from '../views/Contact.vue';
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: Home
   },
   {
     path: '/sobre',
-    name: 'sobre',
+    name: 'About',
     component: About
   },
   {
     path: '/blog',
-    name: 'blog',
+    name: 'Blog',
     component: Blog
   },
   {
     path: '/atividades',
-    name: 'atividades',
-    component: Activities,
-    children: [
-      {
-        path: '/musculacao',
-        name: 'musculacao',
-        component: Activity,
-        props: { activityType: 'musculacao' }
-      },
-      {
-        path: '/boxing',
-        name: 'boxing',
-        component: Activity,
-        props: { activityType: 'boxing' }
-      },
-      {
-        path: '/aerobico',
-        name: 'aerobico',
-        component: Activity,
-        props: { activityType: 'aerobico' }
-      },
-      {
-        path: '/padel',
-        name: 'padel',
-        component: Activity,
-        props: { activityType: 'padel' }
-      },
-      {
-        path: '/pilates',
-        name: 'pilates',
-        component: Activity,
-        props: { activityType: 'pilates' }
-      },
-      {
-        path: '/judo',
-        name: 'judo',
-        component: Activity,
-        props: { activityType: 'judo' }
-      },
-      {
-        path: '/natacao',
-        name: 'natacao',
-        component: Activity,
-        props: { activityType: 'natacao' }
-      }
-    ]
+    name: 'Activities',
+    component: Activities
+  },
+  {
+    path: '/atividades/:activityId',
+    name: 'Activity',
+    component: Activity,
+    props: true
   },
   {
     path: '/contato',

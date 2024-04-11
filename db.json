@@ -21,34 +21,31 @@
       "id": 1,
       "name": "Musculação",
       "img": "atividade-musculacao.jpg",
+      "instructor": "Sofia Ramirez",
       "prices": {
-        "weekly": 49.9,
-        "monthly": 189.9
+        "weekly": "49,90",
+        "monthly": "189,90"
       },
       "schedules": [
         {
           "id": 1,
           "time": "09:00 - 10:00",
-          "week_day": "Terça-feira",
-          "instructor": "Sofia Ramirez"
+          "week_day": "Terça-feira"
         },
         {
           "id": 2,
           "time": "10:00 - 11:00",
-          "week_day": "Terça-feira",
-          "instructor": "Sofia Ramirez"
+          "week_day": "Terça-feira"
         },
         {
           "id": 3,
           "time": "09:00 - 10:00",
-          "week_day": "Quinta-feira",
-          "instructor": "Sofia Ramirez"
+          "week_day": "Quinta-feira"
         },
         {
           "id": 4,
           "time": "15:00 - 16:00",
-          "week_day": "Sexta-feira",
-          "instructor": "Sofia Ramirez"
+          "week_day": "Sexta-feira"
         }
       ]
     },
@@ -56,40 +53,36 @@
       "id": 2,
       "name": "Boxing",
       "img": "atividade-boxing.jpg",
+      "instructor": "Liam Johnson",
       "prices": {
-        "weekly": 59.9,
-        "monthly": 229.9
+        "weekly": "59,90",
+        "monthly": "229,90"
       },
       "schedules": [
         {
           "id": 1,
           "time": "18:00 - 19:00",
-          "week_day": "Segunda-feira",
-          "instructor": "Liam Johnson"
+          "week_day": "Segunda-feira"
         },
         {
           "id": 2,
           "time": "18:00 - 19:00",
-          "week_day": "Terça-feira",
-          "instructor": "Liam Johnson"
+          "week_day": "Terça-feira"
         },
         {
           "id": 3,
           "time": "18:00 - 19:00",
-          "week_day": "Quarta-feira",
-          "instructor": "Liam Johnson"
+          "week_day": "Quarta-feira"
         },
         {
           "id": 4,
           "time": "18:00 - 19:00",
-          "week_day": "Quinta-feira",
-          "instructor": "Liam Johnson"
+          "week_day": "Quinta-feira"
         },
         {
           "id": 5,
           "time": "18:00 - 19:00",
-          "week_day": "Sexta-feira",
-          "instructor": "Liam Johnson"
+          "week_day": "Sexta-feira"
         }
       ]
     },
@@ -97,40 +90,36 @@
       "id": 3,
       "name": "Aeróbico",
       "img": "atividade-aerobico.jpg",
+      "instructor": "Isabella Chen",
       "prices": {
-        "weekly": 39.9,
-        "monthly": 149.9
+        "weekly": "39,90",
+        "monthly": "149,90"
       },
       "schedules": [
         {
           "id": 1,
           "time": "09:00 - 10:00",
-          "week_day": "Segunda-feira",
-          "instructor": "Isabella Chen"
+          "week_day": "Segunda-feira"
         },
         {
           "id": 2,
           "time": "08:00 - 09:00",
-          "week_day": "Terça-feira",
-          "instructor": "Isabella Chen"
+          "week_day": "Terça-feira"
         },
         {
           "id": 3,
           "time": "09:00 - 10:00",
-          "week_day": "Quarta-feira",
-          "instructor": "Isabella Chen"
+          "week_day": "Quarta-feira"
         },
         {
           "id": 4,
           "time": "08:00 - 09:00",
-          "week_day": "Quinta-feira",
-          "instructor": "Isabella Chen"
+          "week_day": "Quinta-feira"
         },
         {
           "id": 5,
           "time": "09:00 - 10:00",
-          "week_day": "Sexta-feira",
-          "instructor": "Isabella Chen"
+          "week_day": "Sexta-feira"
         }
       ]
     },
@@ -138,28 +127,26 @@
       "id": 4,
       "name": "Padel",
       "img": "atividade-padel.jpg",
+      "instructor": "Lucas Nguyen",
       "prices": {
-        "weekly": 49.9,
-        "monthly": 189.9
+        "weekly": "49,90",
+        "monthly": "189,90"
       },
       "schedules": [
         {
           "id": 1,
           "time": "15:00 - 16:00",
-          "week_day": "Quarta-feira",
-          "instructor": "Lucas Nguyen"
+          "week_day": "Quarta-feira"
         },
         {
           "id": 2,
           "time": "14:00 - 15:00",
-          "week_day": "Sábado",
-          "instructor": "Lucas Nguyen"
+          "week_day": "Sábado"
         },
         {
           "id": 3,
           "time": "15:00 - 16:00",
-          "week_day": "Sábado",
-          "instructor": "Lucas Nguyen"
+          "week_day": "Sábado"
         }
       ]
     },
@@ -167,22 +154,21 @@
       "id": 5,
       "name": "Pilates",
       "img": "atividade-pilates.jpg",
+      "instructor": "Ava Thompson",
       "prices": {
-        "weekly": 39.9,
-        "monthly": 149.9
+        "weekly": "39,90",
+        "monthly": "149,90"
       },
       "schedules": [
         {
           "id": 1,
           "time": "17:00 - 18:00",
-          "week_day": "Segunda-feira",
-          "instructor": "Ava Thompson"
+          "week_day": "Segunda-feira"
         },
         {
           "id": 2,
           "time": "17:00 - 18:00",
-          "week_day": "Quinta-feira",
-          "instructor": "Ava Thompson"
+          "week_day": "Quinta-feira"
         }
       ]
     },
@@ -190,34 +176,31 @@
       "id": 6,
       "name": "Judô",
       "img": "atividade-judo.jpg",
+      "instructor": "Noah Patel",
       "prices": {
-        "weekly": 49.9,
-        "monthly": 189.9
+        "weekly": "49,90",
+        "monthly": "189,90"
       },
       "schedules": [
         {
           "id": 1,
           "time": "10:00 - 11:00",
-          "week_day": "Terça-feira",
-          "instructor": "Noah Patel"
+          "week_day": "Terça-feira"
         },
         {
           "id": 2,
           "time": "19:00 - 20:00",
-          "week_day": "Terça-feira",
-          "instructor": "Noah Patel"
+          "week_day": "Terça-feira"
         },
         {
           "id": 3,
           "time": "10:00 - 11:00",
-          "week_day": "Quinta-feira",
-          "instructor": "Noah Patel"
+          "week_day": "Quinta-feira"
         },
         {
           "id": 4,
           "time": "19:00 - 20:00",
-          "week_day": "Quinta-feira",
-          "instructor": "Noah Patel"
+          "week_day": "Quinta-feira"
         }
       ]
     },
@@ -225,28 +208,26 @@
       "id": 7,
       "name": "Natação",
       "img": "atividade-natacao.jpg",
+      "instructor": "Nathaniel Mitchell",
       "prices": {
-        "weekly": 54.9,
-        "monthly": 209.9
+        "weekly": "54,90",
+        "monthly": "209,90"
       },
       "schedules": [
         {
           "id": 1,
           "time": "16:00 - 17:00",
-          "week_day": "Segunda-feira",
-          "instructor": "Noah Patel"
+          "week_day": "Segunda-feira"
         },
         {
           "id": 2,
           "time": "09:00 - 10:00",
-          "week_day": "Quarta-feira",
-          "instructor": "Noah Patel"
+          "week_day": "Quarta-feira"
         },
         {
           "id": 3,
           "time": "15:00 - 16:00",
-          "week_day": "Sábado",
-          "instructor": "Noah Patel"
+          "week_day": "Sábado"
         }
       ]
     }
