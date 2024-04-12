@@ -1,12 +1,15 @@
 {
   "name": "max-health",
+  "homepage": "https://kamilydossantos.github.io/max-health/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^1.6.7",
@@ -21,11 +24,11 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/test-utils": "^2.4.4",
     "autoprefixer": "^10.4.18",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
     "vite": "^5.1.6",
     "vue-tsc": "^1.8.27"
-  },
-  "homepage": "https://kamilydossantos.github.io/max-health/"
+  }
 }
