@@ -1,6 +1,6 @@
 {
   "name": "max-health",
-  "homepage": "https://kamilydossantos.github.io/max-health/",
+  "homepage": "https://max-health.vercel.app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "axios": "^1.6.7",
