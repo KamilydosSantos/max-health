@@ -12,7 +12,7 @@ class ApiServiceImplementation implements ApiService {
 
     constructor() {
         this.axiosInstance = axios.create({
-            baseURL: "http://localhost:3000"
+            baseURL: "https://max-health-api.vercel.app"
         });
     }
 
